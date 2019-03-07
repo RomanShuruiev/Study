@@ -1,14 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-	<div class="ru">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nobis amet ad minima. Alias maxime non minus explicabo qui quaerat nesciunt iste earum nemo, voluptates, perspiciatis a dolorem iusto fugit!</div>
+<style>
+	.container-1, .container-2{
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	}
 
-	<script src="js/libs.min.js"></script>
-	<script src="js/common.js"></script>
-</body>
-</html>
+	.container-1 div, .container-2 div{
+		padding: 10px;
+		border: 1px solid silver;
+	}
+
+	.box-1{
+		flex: 2;
+		order: 2;
+	}
+
+	.box-2{
+		flex: 2;
+		order: 1;
+	}
+
+	.box-3{
+		flex: 1;
+		order: 3;
+	}
+
+	.box{
+		width: 20%;
+	}
+</style>
+
+<div class="container-1">
+	<div class="box-1">
+		<h3>Box 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati consequuntur magnam perferendis esse cupiditate accusamus, ad ex inventore! Nisi temporibus impedit nemo maxime ratione necessitatibus accusamus beatae assumenda laboriosam, unde!</p>
+	</div>
+	<div class="box-2">
+		<h3>Box 2</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, exercitationem corrupti aliquid. Aut illum, quia perferendis, unde voluptatibus architecto rerum harum! Fugit impedit maxime, adipisci a obcaecati, similique eius molestias.</p>
+	</div>
+	<div class="box-3">
+		<h3>Box 3</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam aliquid asperiores iure impedit facere, obcaecati fugiat? Ab consequatur, necessitatibus corrupti? Quos officia illo harum aliquid eos, veniam voluptate totam laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse, officiis delectus dignissimos repudiandae, quisquam incidunt aut non deserunt unde cupiditate minima maiores nisi. Rem deserunt nobis quisquam illum ducimus!</p>
+	</div>
+</div>
+
+<div class="container-2">
+	<div class="box">
+		<h3>Box 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque accusantium, harum repellendus dolore fugit quaerat quibusdam odit reprehenderit maxime eveniet. Non dolore veniam amet nobis provident, mollitia ea impedit nostrum.</p>
+	</div>
+	<div class="box">
+		<h3>Box 2</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem expedita voluptas atque accusamus cum, delectus et. Quam recusandae labore, possimus maxime adipisci consequatur corporis harum molestiae odit doloribus suscipit laboriosam?</p>
+	</div>
+	<div class="box">
+		<h3>Box 3</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nihil dolorem, alias illo delectus libero possimus officia, vel soluta repellendus beatae. Optio, aspernatur voluptatibus sequi corrupti, maiores rem fugit enim.</p>
+	</div>
+</div>
