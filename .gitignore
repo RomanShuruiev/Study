@@ -130,14 +130,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-#node
-/node_modules
-\node_modules
-#libs
-/libs
-**/libs
-\libs
-**\libs
+
 # End of https://www.gitignore.io/api/windows
 app/libs/jquery/.bower.json
 app/libs/jquery/AUTHORS.txt
@@ -237,9 +230,7 @@ app/libs/magnific-popup/src/js/zoom.js
 app/sass/_part.sass
 app/sass/libs.sass
 app/sass/main.sass
-gulpfile.js
-gulpfile.js.txt
-index.html.txt
+
 node_modules/.bin/atob
 node_modules/.bin/atob.cmd
 node_modules/.bin/browser-sync
