@@ -11,36 +11,49 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="table-responsive">
-	<table class="table table-bordered">
-		<thead>
-			<tr class="active">
-				<th>Имя</th>
-				<th>Номер телефона</th>
-				<th>Почта</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td class="success">Василий</td>
-				<td>+79602626445</td>
-				<td>Vasya@gmail.com</td>
-			</tr>
-			<tr>
-				<td>Миша</td>
-				<td>+79817434889</td>
-				<td class="info">Michael@mail.ru</td>
-			</tr>
-			<tr>
-				<td>Петр</td>
-				<td class="warning">+79313826030</td>
-				<td class="danger">Petr@test.com</td>
-			</tr>
-		</tbody>
+	<button class="btn btn-default">Стандартная</button>
+	<input type="submit" class="btn btn-primary" value="Основная">
+	<input type="submit" class="btn btn-success" value="Подтвердить">
+	<a href="#" class="btn btn-info" role="button">Уведомление</a>
+	<button class="btn btn-warning">Внимание</button>
+	<button class="btn btn-danger">Отмена</button>
+	<button class="btn btn-link">Ссылка</button>
+	<br><br>
+	<button class="btn btn-default btn-lg">Стандартная</button>
+	<button class="btn btn-default btn-md">Стандартная</button>
+	<button class="btn btn-default btn-sm">Стандартная</button>
+	<button class="btn btn-default btn-xs">Стандартная</button>
+	<br><br>
+	<button class="btn btn-success btn-md btn-block">Стандартная</button>
+	<br><br>
+	<button class="btn btn-default btn-lg active">Стандартная</button>
+	<button class="btn btn-default btn-lg disabled">Стандартная</button>
+	<br><br>
+	<div class="btn-toolbar" role="toolbar">
+		<div class="btn-group btn-group-lg" data-toggle="buttons">
+			<label class="btn btn-primary">
+				<input type="checkbox"> Первый параметр
+			</label>
+			<label class="btn btn-primary">
+				<input type="checkbox"> Второй параметр
+			</label>
+			<label class="btn btn-primary">
+				<input type="checkbox"> Третий параметр
+			</label>
+		</div>
 
-	</table>
+		<div class="btn-group btn-group-md" data-toggle="buttons">
+			<label class="btn btn-primary">
+				<input type="radio"> Первый параметр
+			</label>
+			<label class="btn btn-primary">
+				<input type="radio"> Второй параметр
+			</label>
+			<label class="btn btn-primary">
+				<input type="radio"> Третий параметр
+			</label>
+		</div>
 	</div>
-	
 </body>
 </html>
 
