@@ -11,60 +11,28 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-	<button class="btn btn-default">Стандартная</button>
-	<input type="submit" class="btn btn-primary" value="Основная">
-	<input type="submit" class="btn btn-success" value="Подтвердить">
-	<a href="#" class="btn btn-info" role="button">Уведомление</a>
-	<button class="btn btn-warning">Внимание</button>
-	<button class="btn btn-danger">Отмена</button>
-	<button class="btn btn-link">Ссылка</button>
-	<br><br>
-	<button class="btn btn-default btn-lg">Стандартная</button>
-	<button class="btn btn-default btn-md">Стандартная</button>
-	<button class="btn btn-default btn-sm">Стандартная</button>
-	<button class="btn btn-default btn-xs">Стандартная</button>
-	<br><br>
-	<button class="btn btn-success btn-md btn-block">Стандартная</button>
-	<br><br>
-	<button class="btn btn-default btn-lg active">Стандартная</button>
-	<button class="btn btn-default btn-lg disabled">Стандартная</button>
-	<br><br>
-	<div class="btn-group btn-group-justified" role="toolbar">
-		<div class="btn-group btn-group-lg" data-toggle="buttons">
-			<label class="btn btn-primary">
-				<input type="checkbox"> Первый параметр
-			</label>
-			<label class="btn btn-primary">
-				<input type="checkbox"> Второй параметр
-			</label>
-			<label class="btn btn-primary">
-				<input type="checkbox"> Третий параметр
-			</label>
-		</div>
+	<div class="container">
+		<form role="form">
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="email" placeholder="Введите email">
+				<p class="help-block">Некая подсказка</p>
+			</div>
 
-		<div class="btn-group btn-group-md" data-toggle="buttons">
-			<label class="btn btn-primary">
-				<input type="radio"> Первый параметр
-			</label>
-			<label class="btn btn-primary">
-				<input type="radio"> Второй параметр
-			</label>
-			<label class="btn btn-primary">
-				<input type="radio"> Третий параметр
-			</label>
-		</div>
-		<br><br>
-		<div class="btn-group-vertical btn-group-lg" data-toggle="buttons">
-			<label class="btn btn-primary">
-				<input type="checkbox"> Первый параметр
-			</label>
-			<label class="btn btn-primary">
-				<input type="checkbox"> Второй параметр
-			</label>
-			<label class="btn btn-primary">
-				<input type="checkbox"> Третий параметр
-			</label>
-		</div>
+			<div class="form-group">
+				<label for="password">Пароль</label>
+				<input type="password" class="form-control" id="password" placeholder="Введите пароль">
+				
+			</div>
+
+			<div class="checkbox">
+				<label for="password">
+					<input type="checkbox">Чекбокс
+				</label>
+			</div>
+
+			<button type="button" class="btn btn-success">Регистрация</button>
+		</form>
 	</div>
 </body>
 </html>
